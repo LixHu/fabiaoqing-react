@@ -1,6 +1,7 @@
 ### 项目配置
 1. 使用react-app创建项目
-2. react， react-route, redux, typescript
+2. react， react-route, redux, typescript, antd
+3. antd 各项配置已经搭建好，只是基础搭建，后期需深入研究。
 
 ### 提交选项
 1. 配置好之后给github仓库权限，自己创建分支提交
@@ -13,3 +14,11 @@
         * 首页
         * 最新表情
         * 表情搜索
+        
+        
+### 项目运行
+```$xslt
+    yarn start
+```
+
+> 其它配置参考package.json
