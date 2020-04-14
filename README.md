@@ -1,6 +1,6 @@
 ### 项目配置
 1. 使用react-app创建项目
-2. react， react-route, redux, typescript, antd
+2. react， react-router, redux, typescript, antd
 3. antd 各项配置已经搭建好，只是基础搭建，后期需深入研究。
 
 ### 提交选项
