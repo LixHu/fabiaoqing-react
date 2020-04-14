@@ -11,16 +11,6 @@ const routes = [
     {
         path: '',
         component: Home,
-        // routes: [
-        //     {
-        //         path: '/about',
-        //         component: About
-        //     },
-        //     {
-        //         path: '/link',
-        //         component: Link
-        //     }
-        // ]
     }
 ];
 
