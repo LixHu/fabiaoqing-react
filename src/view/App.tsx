@@ -12,18 +12,25 @@ import './App.css';
 
 
 const { Header, Content, Footer } = Layout;
+const Items = [
+    { index: 1, link: '/home', title: '首页' },
+    { index: 2, link: '/', title: '最新表情' },
+    { index: 3, link: '/', title: '表情搜索' },
+    { index: 4, link: '/', title: '关于爱发表情' },
+];
 
 const App: React.FC = () => {
     return (
         <Router>
             <Layout>
                 <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-                    <div className="logo"> <img src="/logo.png"/></div>
+                    <div className="logo"> <img src="/logo.png" alt=""/></div>
                     <Menu mode="horizontal" defaultSelectedKeys={['1']}>
-                        <Menu.Item key='1'><Link to="/home">首页</Link></Menu.Item>
-                        <Menu.Item key='2'><Link to="/">最新表情</Link></Menu.Item>
-                        <Menu.Item key='3'><Link to="/">表情搜索</Link></Menu.Item>
-                        <Menu.Item key='4'><Link to="/">关于爱发表情</Link></Menu.Item>
+                        { Items.map((val: any, key: number) => (
+                            <Menu.Item key={ val.index } >
+                                <Link to={ val.link }>{ val.title }</Link>
+                            </Menu.Item>
+                        ))}
                     </Menu>
                 </Header>
                 <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>

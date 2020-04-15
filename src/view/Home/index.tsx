@@ -1,12 +1,16 @@
 import React from 'react';
-import { Button } from 'antd';
+import CardComponent from "../../component/indexCard";
+import LeftFlexComponent from "../../component/LeftFlexComponent";
+const data = [123, 321, 123, 123, 123, 123];
+const leftMenu = [ 124,567,8999 ];
+
 class Home extends React.PureComponent {
 
     render() {
         return(
             <div>
-                <h1>Home 首页</h1>
-                <Button type="primary">Button</Button>
+                <CardComponent Item={data} />
+                <LeftFlexComponent data={leftMenu} />
             </div>
         );
     }
