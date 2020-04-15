@@ -1,12 +1,9 @@
 import React from "react";
 import {Card, List} from "antd";
 
+export interface CardInterface { Items?: Array<any> }
 
-class CardComponent extends React.Component<any, any> {
-    // eslint-disable-next-line @typescript-eslint/no-useless-constructor
-    constructor (props: Array<any>) {
-        super(props);
-    }
+class CardComponent extends React.Component<CardInterface, any> {
     render() {
         return (
             <div>
@@ -19,7 +16,7 @@ class CardComponent extends React.Component<any, any> {
                         lg: 4,
                         xl: 6,
                         xxl: 3,
-                    }} dataSource={ this.props.Item } renderItem={ item => (
+                    }} dataSource={ this.props.Items } renderItem={ item => (
                         <List.Item>
                             <img src='/logo.png' alt="" width="100%" height="100%"/>
                         </List.Item>

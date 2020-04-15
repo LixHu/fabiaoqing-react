@@ -9,8 +9,8 @@ class Home extends React.PureComponent {
     render() {
         return(
             <div>
-                <CardComponent Item={data} />
-                <LeftFlexComponent data={leftMenu} />
+                <CardComponent Items={ data } />
+                <LeftFlexComponent data={ leftMenu } />
             </div>
         );
     }
