@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from "antd";
+import './index.scss';
+
 interface BorderInterface {
     list: Array<{ title: string , link?: string }>
 }
@@ -14,7 +16,9 @@ class RightBorder extends React.Component<BorderInterface, any> {
         return (
             <div className="right-boder">
                 { this.props.list.map((val, key) => (
-                    <Button onClick={ this.toLink.bind(this, val.link)}>{ val.title }</Button>
+                    <div className="btn">
+                        <Button onClick={ this.toLink.bind(this, val.link)} key={ key } size="small">{ val.title }</Button>
+                    </div>
                 ))}
             </div>
         )

@@ -10734,7 +10734,7 @@ react-router@5.1.2, react-router@^5.1.2:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-scripts@3.4.1:
+react-scripts@^3.4.1:
   version "3.4.1"
   resolved "https://registry.npm.taobao.org/react-scripts/download/react-scripts-3.4.1.tgz?cache=0&sync_timestamp=1584750311038&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-scripts%2Fdownload%2Freact-scripts-3.4.1.tgz#f551298b5c71985cc491b9acf3c8e8c0ae3ada0a"
   integrity sha1-9VEpi1xxmFzEkbms88jowK462go=
@@ -11393,17 +11393,6 @@ sass-loader@8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-8.0.2.tgz#debecd8c3ce243c76454f2e8290482150380090d"
   integrity sha512-7o4dbSK8/Ol2KflEmSco4jTjQoV988bM82P9CZdmo9hR3RLnvNc0ufMNdMrB0caq38JQ/FgF4/7RcbcfKzxoFQ==
-  dependencies:
-    clone-deep "^4.0.1"
-    loader-utils "^1.2.3"
-    neo-async "^2.6.1"
-    schema-utils "^2.6.1"
-    semver "^6.3.0"
-
-sass-loader@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-8.0.2.tgz#debecd8c3ce243c76454f2e8290482150380090d"
-  integrity sha1-3r7NjDziQ8dkVPLoKQSCFQOACQ0=
   dependencies:
     clone-deep "^4.0.1"
     loader-utils "^1.2.3"

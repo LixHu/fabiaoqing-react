@@ -5,8 +5,24 @@ import RightBorder from "../../component/RightBorder";
 const data = [123, 321, 123, 123, 123, 123];
 const leftMenu = [ 124,567,8999 ];
 const buttonList = [
+    { title: '不知道111111111111111111111', link: '123' },
     { title: '不知道', link: '123' },
-    { title: '不晓得', link: '234' }
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
+    { title: '不知道', link: '123' },
 ]
 class Home extends React.PureComponent {
 
