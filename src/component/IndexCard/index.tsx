@@ -1,9 +1,9 @@
 import React from "react";
-import {Card, List} from "antd";
+import { Card, List } from "antd";
 
 export interface CardInterface { Items?: Array<any> }
 
-class CardComponent extends React.Component<CardInterface, any> {
+export default class IndexCard extends React.Component<CardInterface, any> {
     render() {
         return (
             <div>
@@ -27,5 +27,5 @@ class CardComponent extends React.Component<CardInterface, any> {
     }
 }
 
-export default CardComponent
+
 

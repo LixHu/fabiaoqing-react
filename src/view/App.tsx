@@ -14,9 +14,9 @@ import './App.css';
 const { Header, Content, Footer } = Layout;
 const Items = [
     { index: 1, link: '/home', title: '首页' },
-    { index: 2, link: '/', title: '最新表情' },
-    { index: 3, link: '/', title: '表情搜索' },
-    { index: 4, link: '/', title: '关于爱发表情' },
+    { index: 2, link: '/hot', title: '热门表情' },
+    // { index: 3, link: '/', title: '表情搜索' },
+    // { index: 4, link: '/', title: '关于爱发表情' },
 ];
 
 const App: React.FC = () => {

@@ -1530,6 +1530,13 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/redux@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/@types/redux/download/@types/redux-3.6.0.tgz#f1ebe1e5411518072e4fdfca5c76e16e74c1399a"
+  integrity sha1-8evh5UEVGAcuT9/KXHbhbnTBOZo=
+  dependencies:
+    redux "*"
+
 "@types/shallowequal@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/@types/shallowequal/download/@types/shallowequal-1.1.1.tgz#aad262bb3f2b1257d94c71d545268d592575c9b1"
@@ -7909,6 +7916,11 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
+mddir@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/mddir/download/mddir-1.1.1.tgz#fa7ddd26b92558e6eb9f890d02d25a3f7cda056b"
+  integrity sha1-+n3dJrklWObrn4kNAtJaP3zaBWs=
+
 mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
@@ -10696,7 +10708,7 @@ react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
 
 react-redux@^7.2.0:
   version "7.2.0"
-  resolved "https://registry.npm.taobao.org/react-redux/download/react-redux-7.2.0.tgz?cache=0&sync_timestamp=1581997590604&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-redux%2Fdownload%2Freact-redux-7.2.0.tgz#f970f62192b3981642fec46fd0db18a074fe879d"
+  resolved "https://registry.npm.taobao.org/react-redux/download/react-redux-7.2.0.tgz#f970f62192b3981642fec46fd0db18a074fe879d"
   integrity sha1-+XD2IZKzmBZC/sRv0NsYoHT+h50=
   dependencies:
     "@babel/runtime" "^7.5.5"
@@ -10945,7 +10957,7 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-redux@^4.0.0, redux@^4.0.5:
+redux@*, redux@^4.0.0, redux@^4.0.5:
   version "4.0.5"
   resolved "https://registry.npm.taobao.org/redux/download/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
   integrity sha1-TbXeWBbheJHeioDEJCMtBvBR2T8=
