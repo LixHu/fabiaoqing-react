@@ -9,7 +9,9 @@ import { RouteWithSubRoutes } from '../assets/common';
 import { RouteInterface } from '../assets/interface'
 import { Layout, Menu } from "antd";
 import './App.css';
+// import { createStore }  from 'redux';
 
+// let store = createStore()
 
 const { Header, Content, Footer } = Layout;
 const Items = [

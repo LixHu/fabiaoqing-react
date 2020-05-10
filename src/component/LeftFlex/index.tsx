@@ -6,7 +6,7 @@ class LeftFlex extends React.Component<any, any> {
     render() {
         return (
             <div>
-                    123
+                123
             </div>
         )
     }
