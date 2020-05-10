@@ -1,6 +1,6 @@
-const todos = (state = [], action: { id: number; text: string }) => {
+const todos = (state = [], action: { id: number; text: string, type: string }) => {
     // @ts-ignore
-    switch (action, type) {
+    switch (action.type) {
         case 'ADD_TODO':
             return [
                 ...state,
