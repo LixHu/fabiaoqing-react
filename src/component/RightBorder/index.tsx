@@ -16,7 +16,7 @@ class RightBorder extends React.Component<BorderInterface, any> {
         return (
             <div className="right-boder">
                 { this.props.list.map((val, key) => (
-                    <div className="btn">
+                    <div className="btn" key={ key }>
                         <Button onClick={ this.toLink.bind(this, val.link)} key={ key } size="small">{ val.title }</Button>
                     </div>
                 ))}

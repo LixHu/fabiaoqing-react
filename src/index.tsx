@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './view/App';
 import * as serviceWorker from './serviceWorker';
+import { initStore } from "./stores";
+import * as mobx from 'mobx';
+import { Provider } from 'mobx-react';
+
+mobx.configure({ enforceActions: 'observed' });
+
+const store = initStore()
 
 ReactDOM.render(
   // <React.StrictMode>
-        <App />,
+    <Provider ui={ store.ui }>
+        <App />
+    </Provider>,
   // </React.StrictMode>
   document.getElementById('root')
 );
